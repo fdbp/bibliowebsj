@@ -1,0 +1,8 @@
+.fa-book-reader{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: -1em;
+    margin-right: 1em;
+    color: darkblue;
+}
