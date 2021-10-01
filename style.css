@@ -22,18 +22,6 @@ body::before{
     color: darkblue;
 }
 
-.fa-youtube{
-    color: darkred;
-}
-
-.fa-facebook-square{
-    color: lightseagreen;
-}
-
-.fa-instagram-square{
-    color: darkmagenta;
-}
-
 .ms-auto{
     margin-right: 4%;
 }
