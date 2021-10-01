@@ -12,6 +12,9 @@ body::before{
     z-index: -1;
 }
 
+a.dropdown-item{
+    margin-right: 4em;
+}
 
 .fa-book-reader{
     display: flex;
@@ -23,5 +26,5 @@ body::before{
 }
 
 .ms-auto{
-    margin-right: 4%;
+    margin-right: 10%;
 }
