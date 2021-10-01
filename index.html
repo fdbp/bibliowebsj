@@ -15,6 +15,7 @@
   </head>
   <body>
       <header>
+        <span id="top"></span>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">FDBP</a>
@@ -34,9 +35,9 @@
                       Bibliotecas
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Capital</a><i class="fas fa-book-reader fa-2x"></i></li>
+                      <li><a class="dropdown-item" href="#capital">Capital</a><i class="fas fa-book-reader fa-2x"></i></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Rawson</a><i class="fas fa-book-reader fa-2x"></i></li>
+                      <li><a class="dropdown-item" href="#rawson">Rawson</a><i class="fas fa-book-reader fa-2x"></i></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Rivadavia</a><i class="fas fa-book-reader fa-2x"></i></li>
                     </ul>
@@ -94,18 +95,34 @@
                   <span class="visually-hidden">Siguiente</span>
                 </button>
               </div>
+              <hr class="divider">
+              <!--Departments-->
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title text-center" id="capital">Capital</h5>
+                  <p class="card-text">Bibliotecas Populares en la Capital de San Juan.</p>
+                </div>
+                <img src="./assets/horizontal image.png" class="card-img-top" alt="No Image Horizontal">
+              </div>
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title text-center" id="rawson">Rawson</h5>
+                  <p class="card-text">Bibliotecas Populares en el Departamento de Rawson.</p>
+                </div>
+                <img src="./assets/horizontal image.png" class="card-img-top" alt="No Image Horizontal">
+              </div>
     </main>
     <footer>
         <div class="card">
             <div class="card-header">
-              Infromación
+              Información
             </div>
             <div class="card-body">
               <h5 class="card-title">Redes Sociales</h5>
               <p class="card-text"><i class="fab fa-youtube fa-2x"></i>
               <i class="fab fa-facebook-square fa-2x"></i>
               <i class="fab fa-instagram-square fa-2x"></i></p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#top" class="btn btn-primary">Volver Arriba</a>
             </div>
           </div>
     </footer>
