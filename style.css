@@ -21,8 +21,8 @@ a.dropdown-item{
     justify-content: end;
     align-items: flex-end;
     margin-top: -1em;
-    margin-right: 1em;
-    color: darkblue;
+    margin-right: auto;
+    color: darkgrey;
 }
 
 .ms-auto{
