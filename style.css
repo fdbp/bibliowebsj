@@ -29,6 +29,24 @@ a.dropdown-item{
     margin-right: 7%;
 }
 
+div.changing a{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+div.changing:hover{
+    background-color: #3e8e41;
+}
+
+div.changing a:hover{
+    color: white;
+}
+
+p.card-text a{
+    text-decoration: none;
+    color: darkslategray;
+}
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
