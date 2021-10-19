@@ -5,11 +5,13 @@ body::before{
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-image: url(./assets/background.jpeg);
+    background-image: url(../assets/book-bg.jpg);
     background-size: cover;
-    background-position: top center;
-    opacity: 0.5;
+    background-position: bottom center;
+    background-attachment: fixed;
+    opacity: 0.9;
     z-index: -1;
+    height: 100vh;
 }
 
 a.dropdown-item{
