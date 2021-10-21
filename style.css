@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
 body::before{
     content: '';
     position: absolute;
@@ -76,6 +78,11 @@ p.card-text a{
 .logo1{
     border-radius: 1em;
     width: 5em;
+}
+
+.change{
+    font-family: 'IM Fell English SC', serif;
+    color: white;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)
