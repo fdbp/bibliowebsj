@@ -93,6 +93,15 @@ p.card-text a{
     color: orangered;
 }
 
+.fa-desktop{
+    font-size: 1.7em;
+    color: black;
+}
+
+.card{
+    box-shadow: .1em .1em .5em black;
+}
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
