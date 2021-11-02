@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
-body::before{
+/* body::before{
     content: '';
     position: absolute;
     top: 0px;
@@ -14,7 +14,7 @@ body::before{
     opacity: 0.9;
     z-index: -1;
     height: 100vh;
-}
+} */
 
 a.dropdown-item{
     margin-right: 4em;
