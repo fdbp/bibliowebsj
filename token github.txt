@@ -1,1 +1,7 @@
-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
+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
+
+git config user.name 
+
+git config user.email 
+
+git config user.password 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
