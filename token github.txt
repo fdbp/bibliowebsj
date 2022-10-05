@@ -1,7 +1,5 @@
-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
-
 git config user.name 
 
 git config user.email 
 
-git config user.password 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
+git config user.password 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
