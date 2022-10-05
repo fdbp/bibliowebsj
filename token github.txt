@@ -2,4 +2,4 @@ git config user.name
 
 git config user.email 
 
-git config user.password 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
+git config user.password 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
