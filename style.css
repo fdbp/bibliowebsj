@@ -106,6 +106,10 @@ p.card-text a{
     text-decoration: none;
 }
 
+.side{
+    margin: 0 10rem 0 10rem;
+}
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
