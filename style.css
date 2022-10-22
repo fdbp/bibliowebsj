@@ -102,6 +102,10 @@ p.card-text a{
     box-shadow: .1em .1em .5em black;
 }
 
+.noline{
+    text-decoration: none;
+}
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
@@ -139,6 +143,11 @@ p.card-text a{
         grid-template-columns: repeat(3, 1fr);
         gap: 1em;
     }
+    .dscreen{
+        display: flex;
+        justify-content: center;
+        margin: 0 20rem 0 20rem;
+    }
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -147,5 +156,11 @@ p.card-text a{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1em;
+    }
+
+    .dscreen{
+        display: flex;
+        justify-content: center;
+       margin: 0 auto;
     }
  }
