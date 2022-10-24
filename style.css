@@ -106,8 +106,8 @@ p.card-text a{
     text-decoration: none;
 }
 
-.side{
-    margin: 0 10rem 0 10rem;
+.fontsize{
+    font-size: .9em;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)
